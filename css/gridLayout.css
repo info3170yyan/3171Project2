@@ -1,0 +1,184 @@
+.item1 { grid-area: one; }
+.grid-containerOne {
+  display: grid;
+  grid-template-areas:
+    'one one one one one one ';
+<<<<<<< HEAD
+  background-color:  #FEE7D8;
+=======
+  background-color:  #F58634;
+>>>>>>> b410ab7056545b17af4da5c989458837c1e1ec2f
+  padding: 10px;
+}
+
+.grid-containerOne > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item-1 { grid-area: one; }
+.item-2 { grid-area: two; }
+
+
+.grid-containerTwo {
+  display: grid;
+  grid-template-areas:
+    'one one one two two two';
+  gap:10px;
+  background-color:  #F58634;
+  padding: 10px;
+}
+
+.grid-containerTwo > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+
+.itemone { grid-area: one; }
+.itemtwo { grid-area: two; }
+.itemthree { grid-area: three; }
+
+.grid-containerThree {
+  display: grid;
+  grid-template-areas:
+    'one one two two three three';
+  gap: 10px;
+  background-color:  #F58634;
+  padding: 10px;
+}
+
+.grid-containerThree > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+
+
+.itemOne { grid-area: one; }
+.itemTwo { grid-area: two; }
+.itemThree { grid-area: three; }
+
+.grid-containerFour {
+  display: grid;
+  grid-template-areas:
+    'one two two two two three';
+  gap: 10px;
+  background-color:  #F58634;
+  padding: 10px;
+}
+
+.grid-containerFour > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+
+
+.itemUn { grid-area: one; }
+.itemDeux { grid-area: two; }
+.itemTrois { grid-area: three; }
+
+.grid-containerFive {
+  display: grid;
+  grid-template-areas:
+    'one two two two two three';
+  gap: 10px;
+  background-color:  #F58634;
+  padding: 10px;
+}
+
+.grid-containerFive > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+
+
+.itemFirst { grid-area: two; }
+.itemSecond { grid-area: four; }
+.itemThird { grid-area: one; }
+.itemFourth { grid-area: five; }
+
+.grid-containerFive {
+  display: grid;
+  grid-template-areas:
+    'two four four four four one'
+    'two five five five five five';
+  gap: 10px;
+  background-color:  #F58634;
+  padding: 10px;
+}
+
+.grid-containerFive > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+
+
+@media screen and (max-width: 960px) {
+  .grid-containerThree {
+    grid-template-areas:
+      'one one'
+      ' two two '
+      'three three';
+  }
+  .grid-containerFour {
+    display: grid;
+    grid-template-areas:
+      'one one three three'
+      ' two two two two';
+  }
+  .grid-containerFive {
+    display: grid;
+    grid-template-areas:
+      'two two two one' 
+      'four four four four'
+      'five five five five ';
+
+  }
+  
+
+  
+}
+
+
+@media screen and (max-width: 640px) {
+  .grid-containerFive {
+    grid-template-areas:
+      'one'
+      'two'
+      'four '
+      'five';
+  }
+
+  .grid-containerFour {
+    grid-template-areas:
+      'one''three'
+      'two';
+  }
+
+  .grid-containerTwo {
+    grid-template-areas:
+      'one''two';
+   
+  }
+
+}
+
+
+
+

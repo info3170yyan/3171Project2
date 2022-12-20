@@ -1,0 +1,188 @@
+/* body */
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+nav {
+    background-color: #F58634;
+}
+#chartsContainer{
+    background-color: #F58634;
+}
+.container{
+    background-color: #F58634;
+
+}
+.brand-logo {
+    max-height: 8rem;
+}
+
+img {
+    width: 100%;
+}
+/* navigation */
+.tabs {
+    height: auto;
+    white-space: normal;
+}
+
+.tab {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.tabs  li.tab {
+    text-align: left;
+}
+
+.tabs .tab a {
+    padding: 0;
+    color: #2D2926;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+    color:#2D2926;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+    padding: 0;
+    background: #f58634;
+    color:#2D2926;
+}
+
+p:first-child {
+    margin-top: 0;
+}
+
+.tab-content {
+    height: 200px;
+    width: 100%;
+    background: #fcfcfc;
+    border:1px solid #f0f0f0;
+}
+
+.indicator {
+    display: none;
+}
+
+/* h1 */
+h1, h2, h3, h4, h5, h6 {
+    color: #363435;
+    font-family: 'Alatsi', sans-serif;
+}
+
+h1 {
+    font-size: 56px;
+    margin-top: 65px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 44px;
+    margin-bottom: 50px;
+}
+
+h4 {
+    font-size: 38px;
+}
+
+
+h6:nth-child(2) {
+    height: 200px;
+}
+
+/* typeface */
+.heading-typogrpahy {
+    font-family: 'Alatsi', sans-serif;
+}
+
+.typeface {
+    width: 200px;
+    height: 200px;
+    background: #1995ad;
+    font-size: 140px;
+    text-align: center;
+}
+
+.typeface p, .typeface-content p {
+    color: #f1f1f2
+}
+
+.content-typogrpahy {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.typeface-content {
+    width: 200px;
+    height: 200px;
+    background: #1995ad;
+    font-size: 140px;
+    text-align: center;
+}
+
+.main-content {
+    line-height: 150%;
+}
+/* color */
+.card-image {
+    background: #1995ad;
+    height: 80px;
+    /* width: 120px; */
+}
+
+.main-color {
+    background: #1995ad;
+}
+.card .card-title {
+    text-align:center;
+    font-size: 12px
+}
+.card .card-content {
+    text-align:center;
+    padding: 3px;
+}
+
+.second-color {
+    background: #a1d6e2;
+}
+
+.functional-color-first {
+    background: #f1f1f2;
+}
+
+.functional-color-second {
+    background: #bcbabe
+}
+
+.functional-color-third {
+    background: #0c090a;
+}
+
+.functional-color-fourth {
+    background: #c1e1dc;
+}
+
+.feedback-color-first {
+    background: #fa6e59
+}
+
+.feedback-color-first p {
+    color:  #FA4C39
+}
+
+.feedback-color-second {
+    background: #ffdb5c
+}
+
+.feedback-color-third {
+    background: #52958b
+}
+
+.dash-card {
+    background-color: #FFFFFF;
+    box-shadow: #E1E1E1;
+    min-height: 200px;
+}

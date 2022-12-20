@@ -1,0 +1,94 @@
+.typogrpahy_heading {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F58634;
+}
+.title{
+    padding-left: 60px;
+    padding-top: 10px;
+    margin: 0px;
+}
+
+.typeface_container{
+    display: inline-block;
+    width: 100%;
+}
+
+.example {
+    color: #f1f1f2;
+    font-size: 200px;
+    margin: 0px;
+    padding-left: 60px;
+    display: inline-block;
+    line-height: 110%;
+}
+
+.typeface p, .typeface-content p {
+    width: fit-content;
+    color: #f1f1f2;
+    margin: 0px;
+    padding-left: 40px;
+
+}
+
+.ruboto_container{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.typefaceFontFamily{
+    display: inline-block;
+    width: 100%;
+}
+
+.ruboto{
+    width: fit-content;
+    /* margin: 0px; */
+    height: 100%;
+    float: left; 
+    margin-left: 40px;
+}
+
+.typefaceFontFamilyName{
+font-size: medium;
+}
+
+.heading-example{
+    margin-bottom: 40px;
+}
+.normal{
+    margin: 25.2px 0px;
+    /* display:inline-block; */
+}
+
+.row_container{
+    padding-left: 11.25px;
+    padding-top: 20px;
+}
+.content-xxs{
+    /* font-size: xx-small; */
+    font-size: 1rem;
+}
+.content-xs{
+    font-size: 1.2rem;
+}
+.content-sm{
+    font-size: 1.4rem;
+}
+.content-md{
+    font-size: 1.6rem;
+}
+.content-lg{
+    font-size: 1.8rem;
+}
+.content-xl{
+    font-size: 2rem;
+}
+.content-xxl{
+    font-size: 2.2rem;
+}
+.bolder{
+    font-weight: bolder;
+}
+#chart{
+    font-family: 'Calibri', sans-serif;
+}

@@ -1,0 +1,49 @@
+/* Charts*/
+.charts-size {
+    width: 100%;
+    justify-items: center;
+    margin: 10px 0px 20px 0px;
+}
+.charts-heading {
+    font-size: 3rem;
+}
+
+.zoom {
+    transition: transform .2s;
+    margin:auto;
+}
+.zoom:hover{
+    transform: scale(0.9);
+}
+img:hover{
+    cursor: pointer;
+}
+/* Icon containers */
+.icon-container{
+<<<<<<< HEAD
+    padding-top: 10px;
+    border-radius: 0px 0px 20px 20px;
+=======
+    padding: 10px;
+    border-radius: 11px;
+>>>>>>> b410ab7056545b17af4da5c989458837c1e1ec2f
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%);
+}
+.gridFour{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+.icon-card{
+    max-width: 40px;
+<<<<<<< HEAD
+}
+.left-align {
+    padding-top: 20px;
+    text-align: left;
+}
+.icon-gallary{
+    padding: 15px;
+=======
+>>>>>>> b410ab7056545b17af4da5c989458837c1e1ec2f
+}

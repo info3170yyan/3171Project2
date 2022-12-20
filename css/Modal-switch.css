@@ -1,0 +1,350 @@
+
+/*
+Nate CSS components start here
+*/
+
+@import url("http://fonts.googleapis.com/css?family=Roboto:500|inter:500");
+
+:root {
+	--white: hsl(0, 0%, 100%);
+	--light-gray: hsl(212, 45%, 89%);
+	--grayish-blue: hsl(220, 15%, 55%);
+	--dark-blue: hsl(218, 44%, 22%);
+}
+
+hr{
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+}
+
+.card-modal {
+    justify-content: center;
+    align-items: center;
+	display: flex;
+	flex-direction: column;
+	margin: 0 0 24px 0;
+	background-color: var(--white);
+	width: 18.75rem /* 300px */ ;
+	padding: 1rem /* 16px */ ;
+	border-radius: 1.25rem /* 20px */ ;
+	box-shadow: 0 10px 15px rgb(0, 0, 0, .05);
+    padding-bottom: 30px;
+    border-color: #bcbabe;
+
+}
+
+.button-wrapper{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.title-wrap-content{
+    display: flexbox;
+    margin: 24px 0;
+    padding: 0;
+
+}
+
+.card-wrapper{
+    display: flex;
+    background: linear-gradient(90deg, rgba(9,16,121,1) 20%, rgba(30,106,174,1) 100%);
+    align-items: center;
+    justify-content: center;
+    padding: 28px;
+    margin: 14px 0;
+}
+
+.card__image {
+    justify-content: center;
+	display: block;
+	width: 20%;
+	height: auto;
+    margin-top: auto;
+	margin-bottom: 1.75rem /* 28px */ ;
+	border-radius: .625rem /* 10px */ ;
+}
+
+.card__title, .card__description {
+	text-align: center;
+	margin: 0 .625rem /* 10px */ ;
+}
+
+.card__title {
+	color: var(--dark-blue);
+	font-size: 1.25rem /* 20px */ ;
+	font-weight: 700;
+	margin-bottom: 1.125rem /* 18px */ ;
+}
+
+.card__description {
+	font-weight: 400;
+	color: var(--grayish-blue);
+	margin-bottom: 1.25rem /* 20px */ ;
+}
+
+.btn-prm {
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 8px;
+    padding: 0 16px;
+    min-width: 64px;
+    height: 36px;
+    vertical-align: middle;
+    text-align: center;
+    text-overflow: ellipsis;
+    color: rgb(var(--pure-material-onprimary-rgb, 255, 255, 255));
+    background-color: rgb(var(--pure-material-primary-rgb, 33, 150, 243));
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    font-family: var(--pure-material-font, "Roboto", "Segoe UI", BlinkMacSystemFont, system-ui, -apple-system);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 36px;
+    overflow: hidden;
+    outline: none;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+    margin: 0 14px;
+}
+
+.btn-prm-2 {
+    justify-content: center;
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 8px;
+    padding: 0 auto;
+    min-width: 64px;
+    height: 36px;
+    vertical-align: middle;
+    text-align: center;
+    text-overflow: ellipsis;
+    color: rgb(var(--pure-material-onprimary-rgb, 255, 255, 255));
+    background-color: rgb(var(--pure-material-primary-rgb, 33, 150, 243));
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    font-family: var(--pure-material-font, "Roboto", "Segoe UI", BlinkMacSystemFont, system-ui, -apple-system);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 36px;
+    overflow: hidden;
+    outline: none;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+}
+
+.btn-alert {
+    justify-content: center;
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 8px;
+    padding: 0 auto;
+    min-width: 64px;
+    height: 36px;
+    vertical-align: middle;
+    text-align: center;
+    text-overflow: ellipsis;
+    color: rgb(var(--pure-material-onprimary-rgb, 255, 255, 255));
+    background-color: red;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    font-family: var(--pure-material-font, "Roboto", "Segoe UI", BlinkMacSystemFont, system-ui, -apple-system);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 36px;
+    overflow: hidden;
+    outline: none;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+}
+
+.btn-sec {
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 8px;
+    padding: 0 16px;
+    min-width: 64px;
+    height: 36px;
+    vertical-align: middle;
+    text-align: center;
+    text-overflow: ellipsis;
+    color: black;
+    background-color: white;
+    border-color: #d9d9d9;
+    font-family: var(--pure-material-font, "Roboto", "Segoe UI", BlinkMacSystemFont, system-ui, -apple-system);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 36px;
+    overflow: hidden;
+    outline: none;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+}
+
+
+
+.btn-prm::-moz-focus-inner {
+    border: none;
+}
+
+/* Overlay */
+.btn-prm::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(var(--pure-material-onprimary-rgb, 255, 255, 255));
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+/* Ripple */
+.btn-prm::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    padding: 50%;
+    width: 32px; /* Safari */
+    height: 32px; /* Safari */
+    background-color: rgb(var(--pure-material-onprimary-rgb, 255, 255, 255));
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1);
+    transition: opacity 1s, transform 0.5s;
+}
+
+/* Hover, Focus */
+.btn-prm:hover,
+.btn-prm:focus {
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.btn-prm:hover::before {
+    opacity: 0.08;
+}
+
+.btn-prm:focus::before {
+    opacity: 0.24;
+}
+
+.btn-prm:hover:focus::before {
+    opacity: 0.3;
+}
+
+/* Active */
+.btn-prm:active {
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+
+.btn-prm:active::after {
+    opacity: 0.32;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0s;
+}
+
+/* Disabled */
+.btn-prm:disabled {
+    color: rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.38);
+    background-color: rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.12);
+    box-shadow: none;
+    cursor: initial;
+}
+
+.btn-prm:disabled::before {
+    opacity: 0;
+}
+
+.btn-prm:disabled::after {
+    opacity: 0;
+}
+
+.code-content-wrapper{
+    box-sizing: border-box;
+    display: block;
+    border: #bcbabe;
+    background-color: #f1f1f2;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+/* Switch CSS */
+.toggle-wrap{
+    padding: 24px;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px
+}
+
+
+.switch-field {
+	display: flex;
+	margin-bottom: 36px;
+	overflow: hidden;
+}
+
+.switch-field input {
+	position: absolute !important;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	width: 1px;
+	border: 0;
+	overflow: hidden;
+}
+
+.switch-field label {
+	background-color: #e4e4e4;
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 14px;
+	line-height: 1;
+	text-align: center;
+	padding: 8px 16px;
+	margin-right: -1px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	transition: all 0.1s ease-in-out;
+}
+
+.switch-field label:hover {
+	cursor: pointer;
+}
+
+.switch-field input:checked + label {
+	background-color: #F58634;
+	box-shadow: none;
+}
+
+.switch-field label:first-of-type {
+	border-radius: 4px 0 0 4px;
+}
+
+.switch-field label:last-of-type {
+	border-radius: 0 4px 4px 0;
+}
+
+
+.form {
+	max-width: 600px;
+	font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
+	font-weight: normal;
+	line-height: 1.625;
+	margin: 8px auto;
+	padding: 16px;
+}
+
+
+
+
+
+
+
+

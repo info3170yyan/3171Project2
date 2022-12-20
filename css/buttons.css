@@ -1,0 +1,348 @@
+/* Buttons */
+.type{
+    color: rgb(142, 142, 142);
+}
+.button_container{
+   background: rgb(45, 41, 38); 
+   padding: 20px 30px;
+   border-radius: 20px 20px 0px 0px;
+}
+.bg_bright_top{
+    background:rgb(250, 249, 249);
+    padding: 10px 10px;
+    border-radius: 20px 20px 0px 0px;
+}
+.bg_bright_btm{
+    background:rgb(250, 249, 249);
+    padding: 0px 10px 10px 10px;
+}
+.bg_dark_top{
+    background: rgb(54, 52, 53);
+    padding: 10px 10px 0px 10px;
+}
+.bg_dark_btm{
+    background: rgb(54, 52, 53);
+    padding: 10px 10px;
+    border-radius: 0px 0px 20px 20px;
+}
+.code{
+    background: rgb(45, 41, 38);
+    color: rgb(147, 159, 165);
+    margin-top: 0px;
+    padding: 0px 30px 20px 30px;
+    border-radius: 0px 0px 20px 20px;
+}
+pre{
+    white-space: pre-wrap;
+}
+
+/* Default Buttons */
+.btn_default_orange{
+    min-width: 35px;
+    min-height: 35px;
+    padding: 7px 16px;
+    background: none;
+    border-style:solid ;
+    border-width: 1px;
+    border-radius: 50px;
+    border-color: rgb(245, 134, 53);
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(245, 134, 53);
+    transition: all 0.2s ease;
+    font-family: 'Roboto', sans-serif; 
+}
+.btn_default_orange:hover{
+    background: rgb(254, 231, 216);
+}
+
+.btn_default_gray{
+    min-width: 35px;
+    min-height: 35px;
+    padding: 7px 16px;
+    background: none;
+    border-style:solid ;
+    border-width: 1px;
+    border-radius: 50px;
+    border-color: rgb(54, 52, 53);
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(54, 52, 53);
+    transition: all 0.2s ease;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn_default_gray:hover{
+    background: rgb(234, 234, 234);
+}
+
+.btn_default_orange_dark{
+    min-width: 35px;
+    min-height: 35px;
+    padding: 7px 16px;
+    background: none;
+    border-style:solid ;
+    border-width: 1px;
+    border-radius: 50px;
+    border-color: rgb(245, 134, 53);
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(245, 134, 53);
+    transition: all 0.2s ease; 
+    font-family: 'Roboto', sans-serif;
+}
+.btn_default_orange_dark:hover{
+    background-color: rgb(245, 134, 53);
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+.btn_default_lightOrange_dark{
+    min-width: 35px;
+    min-height: 35px;
+    padding: 7px 16px;
+    background: none;
+    border-style:solid ;
+    border-width: 1px;
+    border-radius: 50px;
+    border-color: rgb(254, 231, 216);
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(254, 231, 216);
+    transition: all 0.2s ease; 
+    font-family: 'Roboto', sans-serif;
+}
+.btn_default_lightOrange_dark:hover{
+    background: rgb(254, 231, 216);
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+/* Filled Buttons */
+.btn_filled_orange_bright{
+    min-width: 35px;
+    min-height: 35px;
+    padding: 7px 16px;
+    background: rgb(245, 134, 53);
+    border-style:solid ;
+    border-width: 1px;
+    border-radius: 50px;
+    border-color: rgb(245, 134, 53);
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: all 0.2s ease;
+    font-family: 'Roboto', sans-serif;
+}
+.btn_filled_orange_bright:hover{
+    background-color: rgb(207, 111, 42);
+    border-color: rgb(207, 111, 42);
+}
+
+.btn_filled_gray_bright{
+    min-width: 35px;
+    min-height: 35px;
+    padding: 7px 16px;
+    background: rgb(54, 52, 53);
+    border-style:solid ;
+    border-width: 1px;
+    border-radius: 50px;
+    border-color: rgb(54, 52, 53);
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: all 0.2s ease;
+    font-family: 'Roboto', sans-serif; 
+}
+.btn_filled_gray_bright:hover{
+    background: rgb(74, 74, 74);
+}
+
+.btn_filled_orange_dark{
+    min-width: 35px;
+    min-height: 35px;
+    padding: 7px 16px;
+    background: rgb(245, 134, 53);
+    border-style:solid ;
+    border-width: 1px;
+    border-radius: 50px;
+    border-color: rgb(245, 134, 53);
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(54, 52, 53);
+    transition: all 0.2s ease;
+    font-family: 'Roboto', sans-serif;  
+}
+.btn_filled_orange_dark:hover{
+    background-color: rgb(54, 52, 53);
+    color: rgb(245, 134, 53);
+}
+
+.btn_filled_white_dark{
+    min-width: 35px;
+    min-height: 35px;
+    padding: 7px 16px;
+    background: rgb(255, 255, 255);
+    border-style:solid ;
+    border-width: 1px;
+    border-radius: 50px;
+    border-color: rgb(255, 255, 255);
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(54, 52, 53);
+    transition: all 0.2s ease; 
+    font-family: 'Roboto', sans-serif;
+}
+.btn_filled_white_dark:hover{
+    background: rgb(54, 52, 53);
+    color: rgb(255, 255, 255);
+}
+
+/* Text Only Buttons */
+.btn_green_textOnly{
+    min-width: 35px;
+    min-height: 35px;
+    padding: 7px 16px;
+    background: none;
+    border: none ;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(12, 163, 87);
+    transition: all 0.2s ease;
+    font-family: 'Roboto', sans-serif;
+}
+.btn_green_textOnly:hover{
+    background: rgb(227, 236, 232);
+    border-color: rgb(227, 236, 232);
+    border: none;
+    border-width: 1px;
+    border-radius: 50px;
+}
+
+.btn_textOnly_orange_bright{
+    min-width: 35px;
+    min-height: 35px;
+    padding: 7px 16px;
+    background: none;
+    border: none ;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(245, 134, 53);
+    transition: all 0.2s ease;
+    font-family: 'Roboto', sans-serif; 
+}
+.btn_textOnly_orange_bright:hover{
+    background: rgb(254, 231, 216);
+    border-color: rgb(254, 231, 216);
+    border: none;
+    border-width: 1px;
+    border-radius: 50px;
+}
+
+.btn_textOnly_gray_bright{
+    min-width: 35px;
+    min-height: 35px;
+    padding: 7px 16px;
+    background: none;
+    border: none ;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(54, 52, 53);
+    transition: all 0.2s ease;
+    font-family: 'Roboto', sans-serif;
+}
+.btn_textOnly_gray_bright:hover{
+    background: rgb(234, 234, 234);
+    border-color: rgb(234, 234, 234);
+    border: none;
+    border-width: 1px;
+    border-radius: 50px;
+}
+
+.btn_textOnly_lightOrange_dark{
+    min-width: 35px;
+    min-height: 35px;
+    padding: 7px 16px;
+    background: none;
+    border: none ;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(254, 231, 216);
+    transition: all 0.2s ease;
+    font-family: 'Roboto', sans-serif;
+}
+.btn_textOnly_lightOrange_dark:hover{
+    background: rgb(254, 231, 216);
+    border-color: rgb(254, 231, 216);
+    color: rgb(245, 134, 53);
+    border-width: 1px;
+    border-radius: 50px;
+}
+
+.btn_white_textOnly{
+    min-width: 35px;
+    min-height: 35px;
+    padding: 7px 16px;
+    background: none;
+    border: none ;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(225, 225, 225);
+    transition: all 0.2s ease;
+    font-family: 'Roboto', sans-serif;
+}
+.btn_white_textOnly:hover{
+    background: rgb(53, 77, 71);
+    border-color: rgb(53, 77, 71);
+    border: none;
+    border-width: 1px;
+    border-radius: 50px;
+}
+
+.btn_textOnly_white_dark{
+    min-width: 35px;
+    min-height: 35px;
+    padding: 7px 16px;
+    background: none;
+    border: none ;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(225, 225, 225);
+    transition: all 0.2s ease;
+    font-family: 'Roboto', sans-serif;
+}
+.btn_textOnly_white_dark:hover{
+    background: rgb(225, 225, 225);
+    border-color: rgb(225, 225, 225);
+    color: rgb(54, 52, 53);
+    border-width: 1px;
+    border-radius: 50px;
+}

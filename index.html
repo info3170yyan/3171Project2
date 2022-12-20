@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dashboard</title>
+
+        <!-- Import Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+        <!--Import Google Icon Font-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" />
+        <script src="https://kit.fontawesome.com/b57af064c5.js" crossorigin="anonymous"></script>
+
+        <!-- Add Favicon -->
+        <link rel="icon" href="./image/starair.png">   
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+        <!--Import materialize.css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alatsi&family=Quicksand&display=swap" rel="stylesheet">
+
+        <!-- PLEASE ADD YOUR .css FILE HERE -->
+        <link rel="stylesheet" href="./css/main.css"/>
+        <link rel="stylesheet" href="./css/buttons.css"/>
+        <link rel="stylesheet" href="./css/typography.css"/>
+        <link rel="stylesheet" href="./css/gridLayout.css"/>
+        <link rel="stylesheet" href="./css/data-visualization.css"/>
+        <link rel="stylesheet" href="./css/alert.css"/>
+        <link rel="stylesheet" href="./css/color.css"/>
+        <link rel="stylesheet" href="./css/Modal-switch.css"/>
+        <link rel="stylesheet" href="./css/forms.css"/>
+
+        <script src="http://d3js.org/d3.v7.min.js" charset="utf-8"></script>
+
+        <style>
+            .container{
+                height: max-content;
+                min-width: 900px;
+                margin-bottom: 20px;
+                border-radius: 20px;
+                padding: 20px;
+            }
+            #pie_chart{
+                /* background-image: radial-gradient(circle, rgb(80,80,80) 20%, rgb(34,34,34)) */
+            }
+            #barChart{
+                background-image: radial-gradient(circle, rgb(255,255,255) 20%, rgb(193,193,193))
+            }
+            #chartsContainer{
+                background-color: rgb(245,134,52);
+                padding: 20px;
+            }
+            #pieChartItself{
+                margin-left: 20%;  
+            }
+            #donutItself{
+                margin-left: 15%;  
+
+            }
+            #barChartItself{
+                /* margin-left: 75%;   */
+
+            }
+            #h_legend{
+                float: right;
+                margin-top: 20%;
+            }
+            #area_chart_itself{
+                margin-left: 20%;
+            }
+            #chart7itself{
+                margin-left: 23%;
+            }
+            #chart7Btn{
+                margin-left: 35%;
+            }
+            h6{
+                text-align: center;
+                font-weight: bold;
+            }
+            #chart4Itself{
+                margin-left: 20%;
+            }
+        </style>
+
+    </head>
+    <header>
+        <nav>
+            <div class="container-fluid">
+              <div class="navbar-header">   
+                <a class="navbar-brand" href="#"></a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Messages</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#"><span class="glyphicon glyphicon-user"></span> Login</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+            <div class="row">
+                <div class="col">
+                    <a href="#"><img class="brand-logo"src="./image/starair.png" alt="logo"/></a>   
+                </div>
+                <div class="col">
+                    <h1 class="normal">Star Air Dashboard</h1>
+                </div>         
+            </div>
+    </header>
+    <body>
+        <div id="chartsContainer">
+
+            <!-- Chart 1 - Bar Chart -->
+            <div id="chart1_bar" class="container">
+                <div id="chart1_bar_itself"></div>
+            </div> 
+            <script src="./js/chart1_bar.js"></script>  
+
+            <!-- Chart 2 - Pie Chart -->
+            <div id="pie_chart" class="container"></div> 
+            <script src="./js/chart2_pieChart.js"></script>  
+    
+            <!-- Chart 3 - Bar Chart -->
+            <div id = 'barChart' class="container">
+                    <div id="h_bar_chart">
+                        <div id="h_legend"></div>
+                    </div>
+            </div>
+            <script src="./js/chart3_barChart.js"></script>
+
+            <!-- Chart 4 -  -->
+            <div id="scatterplot" class="container"></div>
+            <script src="./js/chart4_scatterplot.js"></script>
+
+            <!-- Chart 5 - Donut Chart -->
+            <div id="donut_chart" class="container"></div>
+            <script src="./js/chart5_donutChart.js"></script>
+
+            <!-- Chart 6 -->
+            <div id="area_chart" class="container"></div>
+            <script src="./js/chart6_area_chart.js"></script>
+
+            <!-- Chart 7 -->
+            <div id="chart7" class="container">
+                <h6>Chart 7 - Number of Loyal Customers</h6>
+                <div id="chart7itself"></div>
+                <div id="chart7Btn">
+                    <button onclick="triggerTransition(1)">Disloyal Customers</button>
+                    <button onclick="triggerTransition(0)">Loyal Customers</button>
+                </div>
+            </div>
+            <script src="./js/chart7.js"></script>
+
+            <!-- Chart 8 -->
+            <div id="totalDistanceChart" class="container"></div>
+            <script src="./js/chart8_totalDistanceChart.js"></script>
+
+            <!-- Chart 9  -->
+            <div id="noDelaysChart" class="container"></div>
+            <script src="./js/chart9_noDelaysChart.js"></script>
+        </div>
+    </body>
+</html>
